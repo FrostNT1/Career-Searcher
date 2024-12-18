@@ -1,0 +1,41 @@
+{
+    "primary_keywords": [
+        "data science",
+        "data scientist",
+        "machine learning engineer",
+        "ml scientist",
+        "data analyst",
+        "ML engineer",
+        "AI engineer",
+        "analyst",
+        "data engineer",
+        "quantitative analyst",
+        "quantitative researcher",
+        "quantitative trader"
+    ],
+    "related_terms": [
+        "analytics",
+        "data analytics",
+        "statistical",
+        "deep learning",
+        "artificial intelligence",
+        "data mining",
+        "NLP",
+        "computer vision"
+    ],
+    "locations": [
+        "remote",
+        "united states",
+        "us",
+        "usa",
+        "u.s.",
+        "u.s.a"
+    ],
+    "exclude_terms": [
+        "senior",
+        "principal",
+        "staff",
+        "lead"
+    ],
+    "match_threshold": 0.7
+} 

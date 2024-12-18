@@ -1,0 +1,14 @@
+{
+    "recipients": [
+        {
+            "email": "st.shivamtyagi.01@gmail.com",
+            "name": "Shivam Tyagi",
+            "notification_frequency": "daily"
+        }
+    ],
+    "email_settings": {
+        "subject_template": "Job Alerts: {new_matches} New Matches Found",
+        "send_empty_notifications": false,
+        "max_jobs_per_email": 20
+    }
+} 

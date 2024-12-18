@@ -1,0 +1,158 @@
+{
+    "companies": [
+        {
+            "name": "BlackRock",
+            "career_url": "https://careers.blackrock.com/search-jobs",
+            "base_url": "https://careers.blackrock.com",
+            "job_listing_selector": "li.section3__search-results-li",
+            "title_selector": "h2.section3__job-title",
+            "location_selector": "span.job-location span.section3__job-info",
+            "link_selector": "a.section3__search-results-a",
+            "pagination": {
+                "type": "url_param",
+                "param_name": "p",
+                "base_url": "https://careers.blackrock.com/search-jobs",
+                "max_pages": 1
+            },
+            "headers": {
+                "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36"
+            }
+        },
+        {
+            "name": "Vanguard",
+            "career_url": "https://www.vanguardjobs.com/job-search-results/",
+            "base_url": "https://www.vanguardjobs.com",
+            "job_listing_selector": "div.job.clearfix",
+            "title_selector": "div.jobTitle a",
+            "location_selector": "div.location",
+            "link_selector": "div.jobTitle a",
+            "pagination": {
+                "type": "url_param",
+                "param_name": "pg",
+                "base_url": "https://www.vanguardjobs.com/job-search-results/",
+                "max_pages": 10
+            },
+            "headers": {
+                "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36"
+            }
+        },
+        {
+            "name": "Wellington Management",
+            "career_url": "https://wellington.wd5.myworkdayjobs.com/External",
+            "base_url": "https://wellington.wd5.myworkdayjobs.com",
+            "job_listing_selector": "li.css-1q2dra3",
+            "title_selector": "a[data-automation-id='jobTitle']",
+            "location_selector": "dd.css-129m7dg",
+            "link_selector": "a[data-automation-id='jobTitle']",
+            "pagination": {
+                "type": "workday",
+                "max_pages": 10
+            },
+            "headers": {
+                "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36"
+            }
+        },
+        {
+            "name": "Goldman Sachs",
+            "career_url": "https://goldmansachs.wd5.myworkdayjobs.com/gs-careers",
+            "base_url": "https://goldmansachs.wd5.myworkdayjobs.com",
+            "job_listing_selector": "li[data-automation-id='jobSearchRow']",
+            "title_selector": "a[data-automation-id='jobTitle']",
+            "location_selector": "dd[data-automation-id='locations']",
+            "link_selector": "a[data-automation-id='jobTitle']",
+            "pagination": {
+                "type": "workday",
+                "max_pages": 10
+            },
+            "headers": {
+                "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36"
+            }
+        },
+        {
+            "name": "Morgan Stanley",
+            "career_url": "https://morganstanley.tal.net/vx/lang-en-GB/mobile-0/brand-2/xf-3786f0ce9359/candidate",
+            "base_url": "https://morganstanley.tal.net",
+            "job_listing_selector": "div.job-result",
+            "title_selector": "div.job-result-title",
+            "location_selector": "div.job-result-location",
+            "link_selector": "a.job-result-title-link",
+            "pagination": {
+                "type": "url_param",
+                "param_name": "page",
+                "base_url": "https://morganstanley.tal.net/vx/lang-en-GB/mobile-0/brand-2/xf-3786f0ce9359/candidate",
+                "max_pages": 10
+            },
+            "headers": {
+                "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36"
+            }
+        },
+        {
+            "name": "JPMorgan",
+            "career_url": "https://jpmc.fa.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/requisitions",
+            "base_url": "https://jpmc.fa.oraclecloud.com",
+            "job_listing_selector": "div[class^='job-card']",
+            "title_selector": "h3[class^='job-card-title']",
+            "location_selector": "p[class^='job-card-location']",
+            "link_selector": "a[class^='job-card-link']",
+            "pagination": {
+                "type": "oracle",
+                "max_pages": 10
+            },
+            "headers": {
+                "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36"
+            }
+        },
+        {
+            "name": "Citadel",
+            "career_url": "https://www.citadel.com/careers/open-positions/",
+            "base_url": "https://www.citadel.com",
+            "job_listing_selector": "div.position-row",
+            "title_selector": "div.position-title",
+            "location_selector": "div.position-location",
+            "link_selector": "a.position-link",
+            "pagination": {
+                "type": "load_more",
+                "max_pages": 1
+            },
+            "headers": {
+                "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36"
+            }
+        },
+        {
+            "name": "Two Sigma",
+            "career_url": "https://careers.twosigma.com/careers/SearchJobs",
+            "base_url": "https://careers.twosigma.com",
+            "job_listing_selector": "div.job-tile",
+            "title_selector": "a.job-title",
+            "location_selector": "span.job-location",
+            "link_selector": "a.job-title",
+            "pagination": {
+                "type": "url_param",
+                "param_name": "page",
+                "base_url": "https://careers.twosigma.com/careers/SearchJobs",
+                "max_pages": 5
+            },
+            "headers": {
+                "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36"
+            }
+        },
+        {
+            "name": "Point72",
+            "career_url": "https://careers.point72.com/CSJobSearch",
+            "base_url": "https://careers.point72.com",
+            "job_listing_selector": "div.job-listing",
+            "title_selector": "a.job-title-link",
+            "location_selector": "div.job-location",
+            "link_selector": "a.job-title-link",
+            "pagination": {
+                "type": "url_param",
+                "param_name": "page",
+                "base_url": "https://careers.point72.com/CSJobSearch",
+                "max_pages": 5
+            },
+            "headers": {
+                "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36"
+            }
+        }
+    ]
+} 
